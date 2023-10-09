@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Paypal</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="img"
+        src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-mark-color.svg"
+      />
+
+      <p>Paypal balance</p>
+      <h1 class="h1">USD</h1>
+      <h1 class="sodu">0,00 <span>$</span></h1>
+      <p>Send Payments</p>
+      <div>
+        <input
+          class="email"
+          type="email"
+          placeholder="Enter Email Address"
+          required
+        />
+      </div>
+      <div>
+        <input class="USD" type="text" placeholder="Enter USD" required />
+      </div>
+      <button class="send">SEND MONEY</button>
+      <div class="container1 hidden">
+        <div class="cc">
+          <h5>Nhập số USD</h5>
+          <input required class="nhapusd" type="text" />
+          <button class="ok">OK</button>
+          <div class="thoat"><button>Thoát</button></div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">© 2023 PAYPAL - All rights reserved</footer>
+    <button class="caidat">Cài đặt</button>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+  </body>
+</html>

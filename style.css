@@ -1,0 +1,92 @@
+.img {
+  width: 100px;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+p {
+  margin-left: 700px;
+  color: rgb(123, 128, 132);
+}
+.h1 {
+  margin-left: 700px;
+  color: #142c8e;
+  font-family: "PayPalSansBig-Regular", Helvetica Neue, Arial, sans-serif;
+  font-size: 40px;
+}
+.sodu {
+  color: #142c8e;
+  font-family: "PayPalSansBig-Regular", Helvetica Neue, Arial, sans-serif;
+  font-size: 40px;
+
+  text-align: center;
+}
+.send {
+  background-color: #142c8e;
+  border: 0.125rem solid #909fe1cf;
+  color: aliceblue;
+  font-family: "PayPalSansBig-Regular", Helvetica Neue, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  border-radius: 5px;
+  margin-left: 680px;
+  margin-top: 20px;
+}
+.send:hover {
+  background-color: #3055eb;
+}
+.footer {
+  background-color: #32458e;
+  color: aliceblue;
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.email {
+  width: 500px;
+  height: 40px;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+.USD {
+  width: 500px;
+  height: 40px;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+.email:hover {
+  border: 3px solid #455182;
+}
+.USD:hover {
+  border: 3px solid #414e82;
+}
+.caidat {
+  border: 1px solid #3055eb;
+  display: inline-block;
+  padding: 5px;
+  background-color: #142c8e;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.caidat:hover {
+  background-color: rgb(218, 170, 227);
+}
+.hidden {
+  display: none;
+}
+
+.thoat {
+  margin-top: 10px;
+}
+.container1 {
+  position: absolute;
+  background-color: rgb(243, 250, 199);
+  border: 2px solid #717ca9;
+  border-radius: 10px;
+}
+.container {
+  position: relative;
+}
+.cc {
+  padding: 20px;
+}
